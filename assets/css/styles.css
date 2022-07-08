@@ -126,6 +126,23 @@ img {
   padding: 4.5rem 0 1rem;
 }
 
+.section__title,
+.section__subtitle{
+  text-align: center;
+}
+
+.section__title {
+  font-size: var(--h2-font-size);
+  color: var(--first-color);
+  margin-bottom: 2rem;
+}
+
+.section__subtitle {
+  display: block;
+  font-size: var(--smaller-font-size);
+  color: var(--text-color-light);
+}
+
 /* ====== HEADER & NAV ====== */
 .header {
   position: fixed;
@@ -319,6 +336,40 @@ img {
 }
 
 /* ====== ABOUT ====== */
+.about__container {
+  row-gap: 2.5rem;
+}
+
+.about__img {
+  width: 220px;
+  border-radius: 1.5rem;
+  justify-self: center;
+}
+
+.about__data {
+  text-align: center;
+}
+
+.about__info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: .5rem;
+  margin-bottom: 2rem;
+}
+
+.about__box {
+  background-color: var(--container-color);
+  border-radius: .75rem;
+  padding: .75rem .5rem;
+}
+
+.about__icon {
+  font-size: 1.5rem;
+  color: var(--first-color);
+  margin-bottom: .5rem;
+}
+
+
 
 /* ====== SKILLS ====== */
 
